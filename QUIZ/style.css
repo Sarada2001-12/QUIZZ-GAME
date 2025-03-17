@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('games.jpg'); /* Replace with your image URL or path */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the image in place when scrolling */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  h1 {
+    color:darkgray;
+  }
+  
+  .timer, .date {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .question {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  .answers input {
+    margin: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color:blue;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color:chartreuse;
+    cursor: not-allowed;
+  }
+  
+  #result {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .reward {
+    font-size: 24px;
+    color: green;
+  }
+  
